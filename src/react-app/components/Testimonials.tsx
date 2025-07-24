@@ -44,7 +44,7 @@ export default function Testimonials() {
         <div className="text-center mb-20">
           <p className="text-gray-600 font-medium mb-8">Trusted by industry leaders</p>
           <div className="grid grid-cols-3 md:grid-cols-6 gap-8 items-center opacity-60">
-            {companies.map((logo, index) => (
+            {companies.map((_logo, index) => (
               <div key={index} className="flex items-center justify-center">
                 <div className="w-24 h-12 bg-gray-200 rounded-lg flex items-center justify-center">
                   <span className="text-gray-500 font-bold text-xs">LOGO</span>
